@@ -1,8 +1,12 @@
 {
-    "name": "angular_language_code",
-    "version": "1.0.0",
+    "name": "angular-language-code",
+    "version": "1.0.2",
     "description": "",
     "main": "./dist/ngLangcode.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jerryzhao-z/angular_language_code.git"
+    },
     "scripts": {
         "test": "karma start",
         "build:dev": "webpack --progress --colors --display-error-details --set-env-NODE_ENV=development",

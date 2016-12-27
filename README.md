@@ -1,5 +1,5 @@
 # angular language code
-angular module for support ISO 691 
+angular module for support ISO 639
 
 1. import to HTML page
 ```
