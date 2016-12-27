@@ -1,7 +1,7 @@
 {
     "name": "angular-language-code",
     "version": "1.0.2",
-    "description": "",
+    "description": "angular module for support ISO 639",
     "main": "./dist/ngLangcode.js",
     "repository": {
         "type": "git",

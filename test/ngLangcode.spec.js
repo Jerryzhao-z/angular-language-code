@@ -8,55 +8,55 @@ describe("ngLangcodeFactory test", function() {
     }));
 
     it("langNames list", function() {
-        expect(ngLangcodeFactory.langNames).not.toBeUndefined();
-        expect(ngLangcodeFactory.langNames).not.toBeNull();
-        expect(ngLangcodeFactory.langNames.length).not.toEqual(0);
-        expect(ngLangcodeFactory.langNames.length).toEqual(184);
+        expect(ngLangcodeFactory.langNames()).not.toBeUndefined();
+        expect(ngLangcodeFactory.langNames()).not.toBeNull();
+        expect(ngLangcodeFactory.langNames().length).not.toEqual(0);
+        expect(ngLangcodeFactory.langNames().length).toEqual(184);
     });
 
     it("NativeNames list", function() {
-        expect(ngLangcodeFactory.langNativeNames).not.toBeUndefined();
-        expect(ngLangcodeFactory.langNativeNames).not.toBeNull();
-        expect(ngLangcodeFactory.langNativeNames.length).not.toEqual(0);
-        expect(ngLangcodeFactory.langNativeNames.length).toEqual(184);
+        expect(ngLangcodeFactory.langLocalNames()).not.toBeUndefined();
+        expect(ngLangcodeFactory.langLocalNames()).not.toBeNull();
+        expect(ngLangcodeFactory.langLocalNames().length).not.toEqual(0);
+        expect(ngLangcodeFactory.langLocalNames().length).toEqual(184);
 
     });
 
     it("alpha1 list", function() {
-        expect(ngLangcodeFactory.langAlpha1).not.toBeUndefined();
-        expect(ngLangcodeFactory.langAlpha1).not.toBeNull();
-        expect(ngLangcodeFactory.langAlpha1.length).not.toEqual(0);
-        expect(ngLangcodeFactory.langAlpha1.length).toEqual(184);
+        expect(ngLangcodeFactory.langAlpha1()).not.toBeUndefined();
+        expect(ngLangcodeFactory.langAlpha1()).not.toBeNull();
+        expect(ngLangcodeFactory.langAlpha1().length).not.toEqual(0);
+        expect(ngLangcodeFactory.langAlpha1().length).toEqual(184);
 
     });
 
     it("alpha2 list", function() {
-        expect(ngLangcodeFactory.langAlpha2).not.toBeUndefined();
-        expect(ngLangcodeFactory.langAlpha2).not.toBeNull();
-        expect(ngLangcodeFactory.langAlpha2.length).not.toEqual(0);
-        expect(ngLangcodeFactory.langAlpha2.length).toEqual(184);
+        expect(ngLangcodeFactory.langAlpha2()).not.toBeUndefined();
+        expect(ngLangcodeFactory.langAlpha2()).not.toBeNull();
+        expect(ngLangcodeFactory.langAlpha2().length).not.toEqual(0);
+        expect(ngLangcodeFactory.langAlpha2().length).toEqual(184);
     });
 
     it("alpha2T list", function() {
-        expect(ngLangcodeFactory.langAlpha2T).not.toBeUndefined();
-        expect(ngLangcodeFactory.langAlpha2T).not.toBeNull();
-        expect(ngLangcodeFactory.langAlpha2T.length).not.toEqual(0);
-        expect(ngLangcodeFactory.langAlpha2T.length).toEqual(184);
+        expect(ngLangcodeFactory.langAlpha2T()).not.toBeUndefined();
+        expect(ngLangcodeFactory.langAlpha2T()).not.toBeNull();
+        expect(ngLangcodeFactory.langAlpha2T().length).not.toEqual(0);
+        expect(ngLangcodeFactory.langAlpha2T().length).toEqual(184);
 
     });
 
     it("alpha2B list", function() {
-        expect(ngLangcodeFactory.langAlpha2B).not.toBeUndefined();
-        expect(ngLangcodeFactory.langAlpha2B).not.toBeNull();
-        expect(ngLangcodeFactory.langAlpha2B.length).not.toEqual(0);
-        expect(ngLangcodeFactory.langAlpha2B.length).toEqual(184);
+        expect(ngLangcodeFactory.langAlpha2B()).not.toBeUndefined();
+        expect(ngLangcodeFactory.langAlpha2B()).not.toBeNull();
+        expect(ngLangcodeFactory.langAlpha2B().length).not.toEqual(0);
+        expect(ngLangcodeFactory.langAlpha2B().length).toEqual(184);
     });
 
     it("alpha3 list", function() {
-        expect(ngLangcodeFactory.langAlpha3).not.toBeUndefined();
-        expect(ngLangcodeFactory.langAlpha3).not.toBeNull();
-        expect(ngLangcodeFactory.langAlpha3.length).not.toEqual(0);
-        expect(ngLangcodeFactory.langAlpha3.length).toEqual(184);
+        expect(ngLangcodeFactory.langAlpha3()).not.toBeUndefined();
+        expect(ngLangcodeFactory.langAlpha3()).not.toBeNull();
+        expect(ngLangcodeFactory.langAlpha3().length).not.toEqual(0);
+        expect(ngLangcodeFactory.langAlpha3().length).toEqual(184);
     });
 });
 

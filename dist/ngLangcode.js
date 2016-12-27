@@ -134,14 +134,47 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return !!name_2_local[_name_];
 	    }
 
+	    function getListFunction(_lang_) {
+	        var _list_;
+	        switch (_lang_) {
+	            case "name":
+	                _list_ = _name_list_;
+	                break;
+	            case "local":
+	                _list_ = _local_list_;
+	                break;
+	            case "alpha1":
+	                _list_ = _alpha1_list_;
+	                break;
+	            case "alpha2":
+	                _list_ = _alpha2_list_;
+	                break;
+	            case "alpha2T":
+	                _list_ = _alpha2T_list_;
+	                break;
+	            case "alpha2B":
+	                _list_ = _alpha2B_list_;
+	                break;
+	            case "alpha3":
+	                _list_ = _alpha3_list_;
+	                break;
+	            default:
+	                _list_ = _name_list_;
+	                break;
+	        }
+	        return function () {
+	            return angular.merge([], _list_); //jshint ignore: line
+	        };
+	    }
+
 	    return {
-	        langNames: _name_list_,
-	        langNativeNames: _local_list_,
-	        langAlpha1: _alpha1_list_,
-	        langAlpha2: _alpha2_list_,
-	        langAlpha2T: _alpha2T_list_,
-	        langAlpha2B: _alpha2B_list_,
-	        langAlpha3: _alpha3_list_,
+	        langNames: getListFunction("name"),
+	        langLocalNames: getListFunction("local"),
+	        langAlpha1: getListFunction("alpha1"),
+	        langAlpha2: getListFunction("alpha2"),
+	        langAlpha2T: getListFunction("alpha2T"),
+	        langAlpha2B: getListFunction("alpha2B"),
+	        langAlpha3: getListFunction("alpha3"),
 	        name_2_local: name_2_local,
 	        name_2_alpha1: name_2_alpha1,
 	        name_2_alpha2: name_2_alpha2,
