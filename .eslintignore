@@ -1,0 +1,9 @@
+**/*Test.js
+/node_modules/*
+/statics/*
+Gruntfile.js
+addons/**/test/**
+core/middlewares/istanbul-middleware/**
+mochaRunner.js
+private_node_modules/**
+browser/public/dist/mg-browser.js

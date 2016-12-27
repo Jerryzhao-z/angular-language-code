@@ -1,0 +1,9 @@
+addons/**/test/**
+deployment/**
+node_modules/**
+standAloneDeployment/**
+statics/**
+target/**
+tenants/**
+private_node_modules/**
+browser/public/dist/**
